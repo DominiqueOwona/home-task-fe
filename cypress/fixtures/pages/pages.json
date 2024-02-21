@@ -9,7 +9,16 @@
       },
       "Logout": {
         "CSS": "[id='logout_sidebar_link']"
+      },
+
+      "AddtocartProduct": {
+        "CSS": "[id='add-to-cart-sauce-labs-fleece-jacket']"
+      },
+
+      "CartIcon": { 
+        "CSS":".shopping_cart_link"
       }
+
     },
     "Fields": {
       "Username": {
@@ -19,12 +28,25 @@
         "CSS": "[data-test='password']"
       }
     },
-    "Selects": {}
+    "Selects": {
+      "ProductsName": {
+        "CSS":"#item_5_title_link",
+        "text": "Sauce Labs Fleece Jacket"
+      },
+      "ProductsPrice": {
+        "CSS":".inventory_item_price",
+        "text": "$49.99"
+      },
+      "SortContainer": {
+        "CSS": "[data-test='product_sort_container']"
+      }
+    }
   },
-
   "Home": {
     "Path": "https://www.saucedemo.com/",
     "Buttons": {},
     "Fields": {}
   }
 }
+
+      
